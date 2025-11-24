@@ -1,0 +1,308 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Admin",
+      "e_mail": "admin@kokolores.bar",
+      "rolle": "admin",
+      "passwort_hash": "a35a1c20a5f28641936f195cf4b2f02f:953f81b71d32f8fa8cf75d845e29f1ce406d58f24610f68dd50539dfbb85e2a2c90f8e1b5e882b056e66b1230a8f0f6a85da958fdc6809fe9b8fc6fec3693838",
+      "erstellt_am": "2025-11-24T14:50:53.384Z"
+    },
+    {
+      "id": "u-tekendienst",
+      "name": "Tekendienst",
+      "e_mail": "tekendienst@kokolores.bar",
+      "rolle": "tekendienst",
+      "passwort_hash": "49996ce175988d5fe25c8792e344f38b:d86e8f253aa0b16bae0685ae171ef5391a7ac13bc65bf78b41b0f03ea34336774bfbbb60490ae572826adf94fb13cb7063847b36fc84399dec5c834dd0d82cb4",
+      "erstellt_am": "2025-11-24T14:50:53.384Z"
+    }
+  ],
+  "produkte": [
+    {
+      "id": "p-1",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz-kola 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-2",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz-kola light 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-3",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz-limo Orange 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-4",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz-limo Zitrone 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-5",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz-limo Apfel-Kirsch 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-6",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz Anjola 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.93,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-7",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz Spritz Apfel 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 1.1,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-8",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "fritz Spritz Traube 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 1.1,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-9",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "VC Spezi 0,33",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.59,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-10",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Sprudel 0,5",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,5",
+      "ek_preis": 0.4,
+      "vk_preis": 1
+    },
+    {
+      "id": "p-11",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Wasser still 0,5",
+      "kategorie": "Alkoholfrei",
+      "einheit": "Flasche 0,5",
+      "ek_preis": 0.4,
+      "vk_preis": 1
+    },
+    {
+      "id": "p-12",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Sprite 1l",
+      "kategorie": "Zum Mischen",
+      "einheit": "1l",
+      "ek_preis": 1.65,
+      "vk_preis": 0
+    },
+    {
+      "id": "p-13",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Cola 1l",
+      "kategorie": "Zum Mischen",
+      "einheit": "1l",
+      "ek_preis": 1.65,
+      "vk_preis": 0
+    },
+    {
+      "id": "p-14",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Energy 1,5l",
+      "kategorie": "Zum Mischen",
+      "einheit": "1,5l",
+      "ek_preis": null,
+      "vk_preis": 0
+    },
+    {
+      "id": "p-15",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Schweppes 1l",
+      "kategorie": "Zum Mischen",
+      "einheit": "1l",
+      "ek_preis": null,
+      "vk_preis": 0
+    },
+    {
+      "id": "p-16",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Wein rot (Ausschank 0,2)",
+      "kategorie": "Wein",
+      "einheit": "Flasche 1l",
+      "ek_preis": 4.55,
+      "vk_preis": 3.5
+    },
+    {
+      "id": "p-17",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Wein weiß (Ausschank 0,2)",
+      "kategorie": "Wein",
+      "einheit": "Flasche 1l",
+      "ek_preis": 4.55,
+      "vk_preis": 3.5
+    },
+    {
+      "id": "p-18",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Joster 1l",
+      "kategorie": "Shots",
+      "einheit": "Flasche 1l",
+      "ek_preis": 6.49,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-19",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Pfeffi 0,7",
+      "kategorie": "Shots",
+      "einheit": "Flasche 0,7",
+      "ek_preis": 4.99,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-20",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Vodka 0,7",
+      "kategorie": "Longdrink",
+      "einheit": "Flasche 0,7",
+      "ek_preis": 7.99,
+      "vk_preis": 3.5
+    },
+    {
+      "id": "p-21",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Asbach 0,7",
+      "kategorie": "Longdrink",
+      "einheit": "Flasche 0,7",
+      "ek_preis": 13.49,
+      "vk_preis": 3.5
+    },
+    {
+      "id": "p-22",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Jägermeister 0,7",
+      "kategorie": "Shots",
+      "einheit": "Flasche 0,7",
+      "ek_preis": 14.99,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-23",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Herbsthäuser Epi 0,33",
+      "kategorie": "Bier",
+      "einheit": "Flasche 0,33",
+      "ek_preis": 0.77,
+      "vk_preis": 2
+    },
+    {
+      "id": "p-24",
+      "aktiv": true,
+      "erstellt_am": "2025-11-24T14:50:53.384Z",
+      "geandert_am": "2025-11-24T14:50:53.384Z",
+      "name": "Augustiner Helles 0,5",
+      "kategorie": "Bier",
+      "einheit": "Flasche 0,5",
+      "ek_preis": 1.19,
+      "vk_preis": 2.5
+    }
+  ],
+  "events": [
+    {
+      "id": "e-1",
+      "titel": "Konzert Frühlingsklänge",
+      "datum_start": "2025-11-24T14:50:53.631Z",
+      "datum_ende": "2025-11-24T17:50:53.631Z",
+      "typ": "Konzert",
+      "notiz_intern": "Probe-Event für den Start",
+      "erstellt_am": "2025-11-24T14:50:53.384Z"
+    },
+    {
+      "id": "e-2",
+      "titel": "Party Nachtflug",
+      "datum_start": "2025-11-25T14:50:53.631Z",
+      "datum_ende": "2025-11-25T17:50:53.631Z",
+      "typ": "Party",
+      "notiz_intern": "",
+      "erstellt_am": "2025-11-24T14:50:53.384Z"
+    }
+  ],
+  "bestand": [],
+  "cash_data": []
+}
