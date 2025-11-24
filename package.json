@@ -1,0 +1,13 @@
+{
+  "name": "bar-inventory-app",
+  "version": "1.0.0",
+  "description": "Mobile-First Bestands- und Kassen-App für Veranstaltungen",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

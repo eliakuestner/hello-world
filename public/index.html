@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kokolores Bar – Bestand & Kasse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Kokolores Bar • Bestand</div>
+    <div class="user-info" id="userInfo"></div>
+  </header>
+
+  <main class="layout">
+    <section class="card" id="loginSection">
+      <h1>Anmelden</h1>
+      <label>E-Mail<br /><input type="email" id="loginEmail" placeholder="admin@kokolores.bar" /></label>
+      <label>Passwort<br /><input type="password" id="loginPassword" placeholder="••••••" /></label>
+      <button class="primary" id="loginBtn">Login</button>
+      <p class="hint">Admin: admin@kokolores.bar / admin123<br />Tekendienst: tekendienst@kokolores.bar / service123</p>
+    </section>
+
+    <section class="card hidden" id="eventSection">
+      <div class="card-header">
+        <h2>Veranstaltungen</h2>
+        <div class="actions">
+          <select id="roleView"></select>
+          <button id="logoutBtn">Logout</button>
+        </div>
+      </div>
+      <div id="eventsList" class="event-list"></div>
+    </section>
+
+    <section class="card hidden" id="stockSection">
+      <div class="card-header">
+        <div>
+          <h2 id="stockTitle">Bestand erfassen</h2>
+          <p id="stockHint"></p>
+        </div>
+        <div class="actions">
+          <button id="closeStock">Zurück</button>
+          <button class="primary" id="saveStock">Speichern</button>
+        </div>
+      </div>
+      <div class="stock-controls">
+        <label for="stockSearch">Suche</label>
+        <input type="search" id="stockSearch" placeholder="Getränk suchen" />
+        <div class="tabs">
+          <button class="tab active" data-zeitpunkt="vor_event">Vor Event</button>
+          <button class="tab" data-zeitpunkt="nach_event">Nach Event</button>
+        </div>
+      </div>
+      <div id="stockList" class="stock-list"></div>
+      <div class="autosave" id="stockStatus">Änderungen werden zwischengespeichert …</div>
+    </section>
+
+    <section class="card hidden" id="adminSection">
+      <div class="card-header">
+        <div>
+          <h2>Admin-Auswertung</h2>
+          <p id="adminEventTitle"></p>
+        </div>
+        <div class="actions">
+          <button id="refreshSummary">Aktualisieren</button>
+          <button id="downloadCsv">Export CSV</button>
+        </div>
+      </div>
+      <div class="grid two" id="adminMetrics"></div>
+      <div id="summaryTable"></div>
+      <div class="card-sub">
+        <h3>Kassenzählung</h3>
+        <label>Umsatz laut Kasse (€)
+          <input type="number" step="0.01" id="cashUmsatz" />
+        </label>
+        <label>Gewinn laut Kasse (€)
+          <input type="number" step="0.01" id="cashGewinn" />
+        </label>
+        <label>Trinkgeld (€)
+          <input type="number" step="0.01" id="cashTip" />
+        </label>
+        <label>Notiz
+          <textarea id="cashNote" rows="2"></textarea>
+        </label>
+        <button class="primary" id="saveCash">Kassendaten speichern</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="productSection">
+      <div class="card-header">
+        <div>
+          <h2>Getränke verwalten</h2>
+          <p>Aktive & inaktive Produkte bearbeiten</p>
+        </div>
+        <div class="actions">
+          <button id="toggleInactive">Aktive/Inaktive</button>
+          <button class="primary" id="newProduct">Neues Produkt</button>
+        </div>
+      </div>
+      <div id="productList" class="product-list"></div>
+      <div class="card-sub hidden" id="productFormWrap">
+        <h3 id="productFormTitle">Produkt</h3>
+        <label>Name<input id="prodName" /></label>
+        <label>Kategorie<input id="prodCategory" /></label>
+        <label>Einheit<input id="prodUnit" /></label>
+        <label>EK-Preis (brutto) <input type="number" step="0.01" id="prodEk" /></label>
+        <label>VK-Preis (brutto) <input type="number" step="0.01" id="prodVk" /></label>
+        <label class="checkbox"><input type="checkbox" id="prodActive" checked /> Aktiv</label>
+        <div class="actions">
+          <button id="cancelProduct">Abbrechen</button>
+          <button class="primary" id="saveProduct">Speichern</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
